@@ -4,7 +4,11 @@
   <script type="text/javascript">
     function store()
     {
-alert("Button has been clicked");
+if (window.File && window.FileReader && window.FileList && window.Blob) {
+  alert("File is supported");
+} else {
+  alert('The File APIs are not fully supported in this browser.');
+}
     }
   </script>
 </body>
