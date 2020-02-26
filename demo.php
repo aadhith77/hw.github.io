@@ -1,5 +1,5 @@
 <html>
 <body>
-<button onclick="<?php echo "Hello world";?>"></button>
+<?php echo "Hello world";?>
 </body>
 </html>
